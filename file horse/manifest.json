@@ -1,0 +1,17 @@
+{
+  "name": "file horse",
+  "version": "1",
+  "browser_action":
+  {
+    "default_icon": "logo.png"
+  },
+  "background":
+  {
+    "page": "html1.html"
+  },
+  "background":{
+  "scripts": ["myjavascript.js"]
+  },
+  "permissions": ["tabs"],
+  "manifest_version": 2
+}
